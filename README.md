@@ -2,13 +2,13 @@
 a cute little screenshot tool with a cli interface and minimal gui (for selection). developed in python.
 
 ## how it's made
-made in python 3.13.9
+made in python 3.13.
 
-uses questionary for the cli prompts and tkinter for a lightweight selection gui
+the main program runs in the command-line and uses questionary for the prompts. also made a lightweight selection gui using tkinter.
 
 ## platforms
 - windows 10+ : supported
-- linux : supported on x11; wayland has a few differences. tested on ubuntu 24.04.
+- linux : supported on x11; the wayland version has a few differences. tested on ubuntu 24.04.
 - macos : ...may or may not work. still untested
 - other: please don't @ me :)
 
@@ -36,7 +36,8 @@ uses questionary for the cli prompts and tkinter for a lightweight selection gui
 
 ## notes
 small learning project. proceed with caution
-i was actually pretty proud of this. it was pretty awesome to learn about screenshotting in python
+
+i was actually pretty proud of this. it was pretty awesome to learn about screenshotting in python.
 
 
 
