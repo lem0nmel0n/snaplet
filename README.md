@@ -22,7 +22,10 @@ the main program runs in the command-line and uses questionary for the prompts. 
 - dependencies are listed in the requirements.txt
 
 ## installation
-you can download a standalone snaplet .exe or .appimage from the [releases page](https://github.com/lem0nmel0n/snaplet/releases)
+you can download a standalone snaplet.exe or linux executable file from the [releases page](https://github.com/lem0nmel0n/snaplet/releases)
+
+
+you could also follow the steps below: 
 1. make sure you have python 3.x installed
 2. clone or download snaplet
 3. navigate to the project folder:
