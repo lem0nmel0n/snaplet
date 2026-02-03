@@ -35,10 +35,8 @@ uses questionary for the cli prompts and tkinter for a lightweight selection gui
    python main.py
 
 ## notes
-- small learning project. 
-- proceed with caution
-
-- i was actually pretty proud of this. learning about screenshotting in python was pretty great!
+small learning project. proceed with caution
+i was actually pretty proud of this. it was pretty awesome to learn about screenshotting in python
 
 
 
