@@ -8,7 +8,7 @@ the main program runs in the command-line and uses questionary for the prompts. 
 
 ## platforms
 - windows 10+ : supported
-- linux : supported on x11; the wayland version has a few differences. tested on ubuntu 24.04.
+- linux : supported on x11; wayland has a few differences. tested on ubuntu 24.04.
 - macos : ...may or may not work. still untested
 - other: please don't @ me :)
 
