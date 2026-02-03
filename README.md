@@ -2,9 +2,9 @@
 a cute little screenshot tool with a cli interface and minimal gui (for selection). developed in python.
 
 ## how it's made
-- made in python 3.13.9
-- uses questionary for the cli prompts
-- uses tkinter for a lightweight selection gui
+made in python 3.13.9
+
+uses questionary for the cli prompts and tkinter for a lightweight selection gui
 
 ## platforms
 - windows 10+ : supported
@@ -13,9 +13,9 @@ a cute little screenshot tool with a cli interface and minimal gui (for selectio
 - other: please don't @ me :)
 
 ## how it works :]
-- answer a few cli prompts (using questionary)
-- simple gui in case you choose screenshot selection
-- screenshot is saved automatically
+1. answer a few cli prompts (using questionary)
+2. simple gui in case you select your screenshot
+3. screenshot is saved automatically
 
 ## requirements
 - python 3.x
