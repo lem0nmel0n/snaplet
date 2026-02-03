@@ -23,9 +23,8 @@ the main program runs in the command-line and uses questionary for the prompts. 
 
 ## installation
 you can download a standalone snaplet.exe or linux executable file from the [releases page](https://github.com/lem0nmel0n/snaplet/releases)
----
-you could also follow the steps below:
-1. make sure you have python 3.x installed
+
+you could also follow the steps below: 1. make sure you have python 3.x installed
 2. clone or download snaplet
 3. navigate to the project folder:
    ```bash
