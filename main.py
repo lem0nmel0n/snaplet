@@ -10,13 +10,6 @@ import os
 from datetime import datetime
 import subprocess
 
-CUSTOM_STYLE = quest.Style([
-    ("answer", "WhiteSmoke"),
-    ("question", "WhiteSmoke"),
-    ("pointer", "WhiteSmoke"),   
-    ("highlighted", "WhiteSmoke"), 
-])
-
 
 def check_wayland():
 	is_wayland = bool(os.environ.get("WAYLAND_DISPLAY"))
@@ -35,8 +28,9 @@ def specific_window(mss,window_titles):
 	"what would you like to screenshot?",
 	choices=window_titles,
 	qmark="",
-	style=CUSTOM_STYLE
 	).ask()
+	if not window_title:
+		exit(0)
 
 	window = pwc.getWindowsWithTitle(window_title)[0]
 	window.activate()
@@ -123,6 +117,9 @@ try:
 	   only_directories=True,
 	   qmark="",
 	).ask()
+
+	if not save_dir:
+		exit(0)
 
 	last_saved_dir.write_text(str(save_dir))
 
